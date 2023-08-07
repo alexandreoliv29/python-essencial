@@ -1,4 +1,8 @@
-num = int(input("Digite um numero inteiro"))
+num = int(input("Digite um numero inteiro: "))
+contador = 0
+i = 10
 
-for i in num: 
-    print(num)
+resultado = num
+for num in range(i): 
+    contador += 1
+    print(resultado , ' x ', contador, ' = ', resultado*contador)
